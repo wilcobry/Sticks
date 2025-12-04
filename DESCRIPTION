@@ -1,0 +1,23 @@
+Package: Sticks
+Type: Package
+Title: Tools for Preparing and Evaluating Logistic Regression Models
+Version: 0.0.1
+Authors@R:
+    person("Brylee", "Wilcox",
+           email = "wilcobry@gmail.com",
+           role = c("aut", "cre"))
+Description: Provides helper functions for logistic regression workflows,
+    including automatic factor conversion, baseline selection, automated
+    binary-response encoding, monotonicity diagnostics, ROC/AUC plots,
+    and model evaluation metrics.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
